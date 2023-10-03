@@ -13,7 +13,7 @@ describe ValidatePassword do
 
   context "args: 'Exaaample1!'" do
     specify { expect(subject.new('Exaaample1!').perform).to eq(false) }
-  end
+s end
 
   context "args: 'fail'" do
     specify { expect(subject.new('fail').perform).to eq(false) }
